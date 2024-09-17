@@ -118,3 +118,61 @@ h2 {
   width: 100%;
   height: 50vh;
 }
+
+/* استجابة التصميم للأحجام المختلفة */
+@media (max-width: 768px) {
+  .welcome {
+    font-size: 6vh;
+  }
+
+  .btn {
+    font-size: 2vh;
+  }
+
+  .contener {
+    width: 90%;
+  }
+
+  .flex {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome {
+    font-size: 5vh;
+  }
+
+  .btn {
+    font-size: 1.8vh;
+  }
+
+  .flex {
+    width: 70%;
+  }
+
+  .contener {
+    height: 75%;
+    width: 95%;
+  }
+}
+
+/* للأجهزة الصغيرة جداً */
+@media (max-width: 320px) {
+  .welcome {
+    font-size: 4vh;
+  }
+
+  .btn {
+    font-size: 1.5vh;
+  }
+
+  .flex {
+    width: 60%;
+  }
+
+  .contener {
+    height: 80%;
+    width: 100%;
+  }
+}
